@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0A3613F215BAB130054FDE4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A3613E215BAB130054FDE4 /* APIHelper.swift */; };
+		A0A36141215D52EC0054FDE4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A36140215D52EC0054FDE4 /* SignUpViewController.swift */; };
+		A0A36143215D9E430054FDE4 /* refresh-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0A36142215D9E430054FDE4 /* refresh-icon.png */; };
+		A0CA5277214ACFBF00F7E905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA5276214ACFBF00F7E905 /* AppDelegate.swift */; };
+		A0CA527C214ACFBF00F7E905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CA527A214ACFBF00F7E905 /* Main.storyboard */; };
+		A0CA527E214ACFC000F7E905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CA527D214ACFC000F7E905 /* Assets.xcassets */; };
+		A0CA5281214ACFC000F7E905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CA527F214ACFC000F7E905 /* LaunchScreen.storyboard */; };
+		A0CA5289214AD2E700F7E905 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA5288214AD2E700F7E905 /* ProfileViewController.swift */; };
+		A0CA528B214AD31400F7E905 /* ToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA528A214AD31400F7E905 /* ToolViewController.swift */; };
+		A0CA528D214AD32700F7E905 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA528C214AD32700F7E905 /* GuideViewController.swift */; };
+		A0CA528F214AD33B00F7E905 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA528E214AD33B00F7E905 /* CommunityViewController.swift */; };
+		A0CA5291214AD39900F7E905 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA5290214AD39900F7E905 /* LoginViewController.swift */; };
+		A0CA5294214AD6EC00F7E905 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A0CA5293214AD6EC00F7E905 /* logo.png */; };
+		A0CA5297214ADD7E00F7E905 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA5296214ADD7E00F7E905 /* LoginTextField.swift */; };
+		A0CA5299214ADFE200F7E905 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA5298214ADFE200F7E905 /* LoginButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0A3613E215BAB130054FDE4 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		A0A36140215D52EC0054FDE4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A0A36142215D9E430054FDE4 /* refresh-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh-icon.png"; sourceTree = "<group>"; };
+		A0CA5273214ACFBF00F7E905 /* Camper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CA5276214ACFBF00F7E905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0CA527B214ACFBF00F7E905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0CA527D214ACFC000F7E905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0CA5280214ACFC000F7E905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0CA5282214ACFC000F7E905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CA5288214AD2E700F7E905 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A0CA528A214AD31400F7E905 /* ToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolViewController.swift; sourceTree = "<group>"; };
+		A0CA528C214AD32700F7E905 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		A0CA528E214AD33B00F7E905 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		A0CA5290214AD39900F7E905 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A0CA5293214AD6EC00F7E905 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Camper/Assets.xcassets/logo.png; sourceTree = SOURCE_ROOT; };
+		A0CA5296214ADD7E00F7E905 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		A0CA5298214ADFE200F7E905 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CA5270214ACFBF00F7E905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0CA526A214ACFBF00F7E905 = {
+			isa = PBXGroup;
+			children = (
+				A0CA5275214ACFBF00F7E905 /* Camper */,
+				A0CA5274214ACFBF00F7E905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CA5274214ACFBF00F7E905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA5273214ACFBF00F7E905 /* Camper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CA5275214ACFBF00F7E905 /* Camper */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA5276214ACFBF00F7E905 /* AppDelegate.swift */,
+				A0CA527A214ACFBF00F7E905 /* Main.storyboard */,
+				A0CA5290214AD39900F7E905 /* LoginViewController.swift */,
+				A0A36140215D52EC0054FDE4 /* SignUpViewController.swift */,
+				A0A3613E215BAB130054FDE4 /* APIHelper.swift */,
+				A0CA527D214ACFC000F7E905 /* Assets.xcassets */,
+				A0CA527F214ACFC000F7E905 /* LaunchScreen.storyboard */,
+				A0CA5282214ACFC000F7E905 /* Info.plist */,
+				A0CA5288214AD2E700F7E905 /* ProfileViewController.swift */,
+				A0CA528A214AD31400F7E905 /* ToolViewController.swift */,
+				A0CA528C214AD32700F7E905 /* GuideViewController.swift */,
+				A0CA528E214AD33B00F7E905 /* CommunityViewController.swift */,
+				A0CA5295214ADD4A00F7E905 /* Login */,
+				A0CA5292214AD6CF00F7E905 /* images */,
+			);
+			path = Camper;
+			sourceTree = "<group>";
+		};
+		A0CA5292214AD6CF00F7E905 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A0A36142215D9E430054FDE4 /* refresh-icon.png */,
+				A0CA5293214AD6EC00F7E905 /* logo.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A0CA5295214ADD4A00F7E905 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA5296214ADD7E00F7E905 /* LoginTextField.swift */,
+				A0CA5298214ADFE200F7E905 /* LoginButton.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CA5272214ACFBF00F7E905 /* Camper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CA5285214ACFC000F7E905 /* Build configuration list for PBXNativeTarget "Camper" */;
+			buildPhases = (
+				A0CA526F214ACFBF00F7E905 /* Sources */,
+				A0CA5270214ACFBF00F7E905 /* Frameworks */,
+				A0CA5271214ACFBF00F7E905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camper;
+			productName = Camper;
+			productReference = A0CA5273214ACFBF00F7E905 /* Camper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CA526B214ACFBF00F7E905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ertheo Siswadi";
+				TargetAttributes = {
+					A0CA5272214ACFBF00F7E905 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A0CA526E214ACFBF00F7E905 /* Build configuration list for PBXProject "Camper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0CA526A214ACFBF00F7E905;
+			productRefGroup = A0CA5274214ACFBF00F7E905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CA5272214ACFBF00F7E905 /* Camper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CA5271214ACFBF00F7E905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CA5294214AD6EC00F7E905 /* logo.png in Resources */,
+				A0A36143215D9E430054FDE4 /* refresh-icon.png in Resources */,
+				A0CA5281214ACFC000F7E905 /* LaunchScreen.storyboard in Resources */,
+				A0CA527E214ACFC000F7E905 /* Assets.xcassets in Resources */,
+				A0CA527C214ACFBF00F7E905 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CA526F214ACFBF00F7E905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A3613F215BAB130054FDE4 /* APIHelper.swift in Sources */,
+				A0CA5291214AD39900F7E905 /* LoginViewController.swift in Sources */,
+				A0CA5299214ADFE200F7E905 /* LoginButton.swift in Sources */,
+				A0CA528B214AD31400F7E905 /* ToolViewController.swift in Sources */,
+				A0A36141215D52EC0054FDE4 /* SignUpViewController.swift in Sources */,
+				A0CA5289214AD2E700F7E905 /* ProfileViewController.swift in Sources */,
+				A0CA528F214AD33B00F7E905 /* CommunityViewController.swift in Sources */,
+				A0CA528D214AD32700F7E905 /* GuideViewController.swift in Sources */,
+				A0CA5277214ACFBF00F7E905 /* AppDelegate.swift in Sources */,
+				A0CA5297214ADD7E00F7E905 /* LoginTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0CA527A214ACFBF00F7E905 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CA527B214ACFBF00F7E905 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0CA527F214ACFC000F7E905 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CA5280214ACFC000F7E905 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0CA5283214ACFC000F7E905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0CA5284214ACFC000F7E905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0CA5286214ACFC000F7E905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZZ43897VS;
+				INFOPLIST_FILE = Camper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siswadi.Camper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0CA5287214ACFC000F7E905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZZ43897VS;
+				INFOPLIST_FILE = Camper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siswadi.Camper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CA526E214ACFBF00F7E905 /* Build configuration list for PBXProject "Camper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CA5283214ACFC000F7E905 /* Debug */,
+				A0CA5284214ACFC000F7E905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CA5285214ACFC000F7E905 /* Build configuration list for PBXNativeTarget "Camper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CA5286214ACFC000F7E905 /* Debug */,
+				A0CA5287214ACFC000F7E905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0CA526B214ACFBF00F7E905 /* Project object */;
+}
